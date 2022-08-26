@@ -1,0 +1,175 @@
+html{
+    background-image: linear-gradient(#fc5e55,#fa4083);
+}
+body{
+   
+    
+    background-position: top center;
+    background-image: url(./images/image-lion-background.png);
+    background-repeat: no-repeat;
+ font-size: 1.125rem;
+  color: white;
+    
+}
+body{
+    justify-content: center;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+ 
+}
+
+button{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    justify-content: space-between;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+.about{
+ 
+    display: flex;
+    min-height: 300px;
+    display: flex;
+}
+.about1{
+    /* justify-content: center; */
+    padding-top: 50px;
+ min-height: 300px;
+}
+.about2{
+    padding-top: 50px;
+}
+.btn2 button{
+background-color: white;
+color: #fc5e55;
+border-radius: 5px;
+box-shadow: #fa4083;
+}
+.btn2 button :hover{
+background-color: aqua;
+transition-duration: 1s;
+}
+
+.mood{
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+ /* position: absolute; */
+ 
+}
+
+.T1{
+    background-image: url(./images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    /* width: 30%; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.228);
+    /* position: relative; */
+    margin-right: 5px;
+}
+.T2{
+    background-image: url(./images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    /* width: 30%; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.228);
+    /* position: relative; */
+    margin-right: 5px;
+}
+.T3{
+    background-image: url(./images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    /* width: 30%; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.228);
+    /* position: relative; */
+    margin-right: 5px;
+}
+
+.T1, .T2, .T3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.T1, .T2, .T3 :hover{
+    color: whitesmoke;
+}
+
+.grid{
+
+}
+.about1{
+    flex: 2;
+    padding-right: 100px;
+
+}
+.about2{
+    flex: 1;
+}
+
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair' serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.228);
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'playfair display'serif;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.mood p {
+font-size: 0.85rem;
+line-height: 1.2rem;
+margin-top: 10px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.gridd{
+width: 47%;
+padding: 50px;
+border: 1px solid white;
+box-sizing: border-box;
+margin-top: 50px;
+}
+
+.gridd p :last-of-type{
+font-size: 0.8rem;
+padding-left: 30px;
+} 
